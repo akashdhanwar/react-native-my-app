@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 
 export default function App() {
-  const [outputText, setOutputText] = useState("Open up app");
+  const [outputText, setOutputText] = useState("Open up app its ok");
   return (
     <View style={styles.container}>
       <Text>{outputText}</Text>
